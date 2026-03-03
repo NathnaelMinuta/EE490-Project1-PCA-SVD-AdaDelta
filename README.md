@@ -1,4 +1,4 @@
-# EE490 Project 1 — PCA/SVD Image Compression & Denoising + AdaDelta Optimization
+# EE490 Project 1 - PCA/SVD Image Compression & Denoising + AdaDelta Optimization
 
 **Course:** EE 490 – Engineering Applications of AI and Machine Learning  
 **Instructor:** Dr. Jianwu Zeng  
@@ -8,14 +8,14 @@
 ## Overview
 This project has two parts:
 
-### Part 1 — Image Compression & Denoising using PCA/SVD
+### Part 1 - Image Compression & Denoising using PCA/SVD
 - Apply SVD to each RGB channel of an image
 - Reconstruct using rank-k approximation
 - Use truncated singular values for:
   - **Compression** (reduce storage)
   - **Denoising** (suppress noise)
 
-### Part 2 — Optimization using Gradient Descent (AdaDelta-style)
+### Part 2 - Optimization using Gradient Descent (AdaDelta-style)
 - Minimize the quadratic objective:
   \[
   f(x,y) = x^2 + 2xy + 4y^2
